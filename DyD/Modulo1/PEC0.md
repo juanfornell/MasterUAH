@@ -37,7 +37,7 @@ El resultado son 0.0000000037 ethers.
 
 En primer lugar, iniciamos Ganache a través del terminal con el comando `ganache-cli`  
 
-![Captura Ganache](images/captura-ganache.jpeg?raw=true)  
+![Captura Ganache](images/captura-ganache.jpg?raw=true)  
 
 Conectamos Metamask a la blockchain local e inicializamos uno de nuestros wallets con su clave privada.  
 
