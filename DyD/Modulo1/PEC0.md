@@ -52,3 +52,4 @@ Copiamos el código del Smart Contract en Remix, compilamos y nos conectamos a l
 Comprobamos con la función balanceOf que efectivamente se ha desplegado correctamente con una cantidad inicial de 21.000.000 tokens.
 
 ![Captura Metamask Cuenta](images/captura-remix2.png?raw=true)  
+
