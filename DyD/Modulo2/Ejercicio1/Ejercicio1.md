@@ -4,7 +4,7 @@
 
 Para empezar, tenemos que crear una cuenta con geth. Nuestro address es: 8230b42f053d6d29bac122fd5a78ce34e9f43fc1.
 
-![Captura New Accout Geth](images/geth-newAccount.png?raw=true)  
+![Captura New Accout Geth](../images/geth-newAccount.png?raw=true)  
 
 Con el comando `geth account list` podemos ver que nuestra cuenta está en el listado.  
 
