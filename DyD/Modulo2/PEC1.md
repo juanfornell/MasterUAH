@@ -103,7 +103,7 @@ $ ./install_deps.sh
 $ ./build.sh
 ```
 
-Como hemos instalado la última versión del compilador, la 0.5.0, vamos a utilizar un smart contract que aparece en su [documentación](https://media.readthedocs.org/pdf/solidity/develop/solidity.pdf) para que todo funcione correctamente. El contrato que vamos a utilizar es [storage.sol](../storage.sol).  
+Como hemos instalado la última versión del compilador, la 0.5.0, vamos a utilizar un smart contract que aparece en su [documentación](https://media.readthedocs.org/pdf/solidity/develop/solidity.pdf) para que todo funcione correctamente. El contrato que vamos a utilizar es [storage.sol](storage.sol).  
 
 Para obtener los códigos de operación, utilizamos el siguiente comando.
 
