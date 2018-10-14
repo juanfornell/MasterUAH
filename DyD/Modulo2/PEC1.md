@@ -59,3 +59,37 @@ También comprobamos con el siguiente comando el balance de la dirección en la 
 
 ![Captura Stop Mining](images/stop-mining.png?raw=true)  
 
+
+## Ejercicio 2  
+
+Para sincronizarnos con Rinkeby, ejecutamos el siguiente comando.
+
+`geth --rinkeby`  
+
+![Captura Rinkeby Syncing](images/rinkeby-sync.png?raw=true)  
+
+Obtenemos el address con el comando admin.  
+
+`admin.nodeInfo.protocols.eth.genesis`  
+
+![Captura Rinkeby Genesis](images/rinkeby-genesis.png?raw=true)  
+
+El número de peers conectados a nuestro nodo los podemos ver con el siguiente comando.  
+
+`> admin.peers.length  
+2`
+
+Si queremos ver la información de los peers, consultamos el número de bloque del address que aparece en el campo head.  
+
+`> eth.getBlock(admin.peers[1].protocols.eth.head).number
+3142498
+> eth.getBlock(admin.peers[2].protocols.eth.head).number
+TypeError: Cannot access member 'protocols' of undefined
+    at <anonymous>:1:14`  
+
+
+
+
+
+
+
