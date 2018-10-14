@@ -76,20 +76,15 @@ Obtenemos el address con el comando admin.
 
 El número de peers conectados a nuestro nodo los podemos ver con el siguiente comando.  
 
-`> admin.peers.length  
-2`
+`admin.peers.length`  
 
 Si queremos ver la información de los peers, consultamos el número de bloque del address que aparece en el campo head.  
 
-`> eth.getBlock(admin.peers[1].protocols.eth.head).number
-3142498
-> eth.getBlock(admin.peers[2].protocols.eth.head).number
-TypeError: Cannot access member 'protocols' of undefined
-    at <anonymous>:1:14`  
+`eth.getBlock(admin.peers[0].protocols.eth.head).number  
+eth.getBlock(admin.peers[1].protocols.eth.head).number`
 
+![Captura Peers](images/peers.png?raw=true)  
 
-
-
-
+En uno de los nodos no podemos obtener el número de bloque pero en el otro vemos que es el 3142498.  
 
 
