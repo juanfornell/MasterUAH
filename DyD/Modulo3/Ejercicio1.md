@@ -4,7 +4,7 @@
 
 En primer lugar, sincronizamos un nodo completo en modo fast en la red Rinkeby. Con la consola de geth, podemos comprobar que está sincronizado al completo:  
 
-![Captura Nodo Sincronizado](../images/geth-sync.png?raw=true)  
+![Captura Nodo Sincronizado](../Modulo3/images/geth-sync.png?raw=true)  
 
 Para registrar el dominio, he seguido el tutorial de la siguiente web: <https://michalzalecki.com/register-test-domain-with-ens/>. En ella está disponible el script ensutils-rinkeby.js adaptado a la red rinkeby. Lo dejamos en la ruta a la que nos hemos conectado con la consola geth, y lo ejecutamos:
 
@@ -50,6 +50,6 @@ El siguiente paso es poder resolver. Para ello, asignamos nuestra cuenta:
 
 Captura:  
 
-![Captura ENS Address](../images/ens-address.png?raw=true)  
+![Captura ENS Address](../Modulo3/images/ens-address.png?raw=true)  
 
 
