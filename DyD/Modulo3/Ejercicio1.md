@@ -2,7 +2,7 @@
 
 ## Ejercicio 1  
 
-En primer lugar, sincronizamos un nodo completo en modo fast en la red Rinkeby. Con la consola de geth, podemos comprobar que está sincronizado al completo:
+En primer lugar, sincronizamos un nodo completo en modo fast en la red Rinkeby. Con la consola de geth, podemos comprobar que está sincronizado al completo:  
 
 ![Captura Nodo Sincronizado](../images/geth-sync.png?raw=true)  
 
@@ -48,7 +48,7 @@ El siguiente paso es poder resolver. Para ello, asignamos nuestra cuenta:
 "0x65c57d6a8923ef63a63323939f277347fd2be940"
 ```
 
-Captura:
+Captura:  
 
 ![Captura ENS Address](../images/ens-address.png?raw=true)  
 
