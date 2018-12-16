@@ -35,8 +35,26 @@ A continuación, ejecutamos nuestra DApp con el siguiente comando. Se nos abrir�
 npm run dev
 ```
 
-![Captura Dappa inicio](./images/inicio.png?raw=true)  
+![Captura Dapp inicio](./images/inicio.png?raw=true)  
 
+Si tenemos MetaMask configurado para estar conectado a la blockchain en local de Ganache, vemos que nos aparece la dirección asociada a la cuenta que tengamos.
 
+Para votar, seleccionamos en el desplegable a uno de los candidatos y pulsamos el botón Vote. Se nos abrirá un cuadro de diálogo de MetaMask para confirmar la transacción.
 
-Tests 
+![Captura Voto](./images/voting.png?raw=true)  
+
+Una vez aceptada, vemos que el número de votos del candidato seleccionado se ha incrementado y que ya no aparece el botón para votar debido a que solo podemos votar una vez desde esta direccióm.
+
+![Captura Votación emitida](./images/voted.png?raw=true)  
+
+Si cambiamos de cuenta con MetaMask, vemos que la interfaz se refresca de forma automática mostrando nuestra nueva dirección y permitiéndonos votar nuevamente a uno de los candidatos.
+
+![Captura Cambio de Dirección](./images/new-vote.png?raw=true)  
+
+Para garantizar que el contrato se comporta de forma adecuada, se han desarrollado una serie de tests que comprueba tanto la inicialización del contrato como las funciones que ofrece.
+
+```
+truffle test
+```
+![Captura Tests](./images/tests.png?raw=true)  
+
