@@ -42,7 +42,7 @@ Estas opciones fuerzan que los smart contracts tengan más espacio disponible, a
 
 **Nota**: Esta solución es debido a que con la versión 5 de truffle, al desplegar los contratos en ganache se observaba el *error out of gas*. [Link](https://ethereum.stackexchange.com/questions/64557/truffle-v5-runs-out-of-gas-but-truffle-v4-deploys-the-contract)
 
-Para la parte de la interfazo, se tomó como punto de partida el proyecto webpack de truffle: <https://github.com/trufflesuite/truffle-init-webpack>
+Para la parte de la interfaz, se tomó como punto de partida el proyecto webpack de truffle: <https://github.com/trufflesuite/truffle-init-webpack>
 
 
 ### Aspectos realizados con la práctica
@@ -51,7 +51,7 @@ Para la parte de la interfazo, se tomó como punto de partida el proyecto webpac
 
 Para ejecutar la aplicación, en primer lugar iniciamos la blockchain con ganache.
 
-![Captura ganache](../images/ganache.png?raw=true)  
+![Captura ganache](./images/ganache.png?raw=true)  
 
 En segundo lugar, a través de la consola de truffle compilamos y migramos los smart contratcs a la blockchain de ganache.
 
@@ -128,7 +128,7 @@ Por último, ejecutamos la aplicación con npm en *http://localhost:8080/*.
 
 Ejecutando desde el navegador la dirección `http://localhost:8080/` podemos acceder a nuestra aplicación en local.
  
-![Captura interfaz](../images/interfaz.png?raw=true)  
+![Captura interfaz](./images/interfaz.png?raw=true)  
 
 3. Interactuar con la aplicación.
 
@@ -138,7 +138,7 @@ A través de la aplicación web, podemos insertar los datos del parte en los for
 
 En la parte superior de la pantalla podemos ver el address de la cuenta actual con la que hemos accedido vía Metamask.
 
-![Captura address](../images/address.png?raw=true)  
+![Captura address](./images/address.png?raw=true)  
 
 5. Refrescar automáticamente la web en caso de cambiar de address (MetaMask).
  		
@@ -148,17 +148,17 @@ Cuando se cambia de cuenta a través de Metamask, la dirección con la que estam
 
 Una vez hemos introducido los datos, podemos proceder a crear el parte a través de una transacción firmada con Metamask.
 
-![Captura firmar transacción](../images/firmar_tx.png?raw=true)  
+![Captura firmar transacción](./images/firmar_tx.png?raw=true)  
 
 7. Guiar al usuario final que usa la aplicación sobre lo que está sucediendo en la aplicación.
 
 Tras aceptar la transacción, si todo ha ido bien se informa al usuario en la parte inferior de que el parte se ha creado correctamente.
 
-![Captura informar usuario](../images/mensaje_user.png?raw=true)  
+![Captura informar usuario](./images/mensaje_user.png?raw=true)  
 
 Si refrescamos el navegador, vemos que ahora aparecen los datos del parte que se ha creado con el address con el que estamos activos.
 
-![Captura parte creado](../images/parte_creado.png?raw=true)  
+![Captura parte creado](./images/parte_creado.png?raw=true)  
 
 8. Uso de herencia.
 
