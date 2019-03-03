@@ -198,7 +198,7 @@ Los test necesarios para comprobar la creación de partes y la recuperación de 
 
 Para lanzar los tests y comprobar que se ejecutan correctamente, utilizamos `truffle test`.
 
-![Captura Tests](../images/tests.png?raw=true)  
+![Captura Tests](./images/tests.png?raw=true)  
 
 14. Realice comentarios sobre el código de los tests.
 
