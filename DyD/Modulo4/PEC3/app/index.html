@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Aplicación de Gestión de Partes</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Aplicación de Gestión de Partes</h1>
+  <h3>Su dirección es <span class="black"><span id="address"></span>.</span></h3>
+
+  <br>
+  <h1>Crear nuevo parte</h1>
+  <br><label for="dia">Día:</label><input type="text" id="dia" placeholder="DD/MM/AAAA"></input>
+  <br><label for="lugar">Lugar:</label><input type="text" id="lugar" placeholder="Dirección del siniestro."></input>
+  <br><label for="matriculaA">Matrícula de su vehículo:</label><input type="text" id="matriculaA" placeholder="1122ABC."></input>
+  <br><label for="matriculaB">Matrícula del otro vehículo:</label><input type="text" id="matriculaB" placeholder="1122ABC."></input>
+  <br><br><button id="send" onclick="App.crearNuevoParte()">Crear parte</button>
+  <br><br>
+  <h3>Parte creado con su dirección: </h3>
+  <h4>Día: <span class="black"><span id="diaParte"></span>.</span></h4>
+  <h4>Lugar: <span class="black"><span id="lugarParte"></span>.</span></h4>
+  <h4>Matrícula de su vehículo: <span class="black"><span id="matriculaAParte"></span>.</span></h4>
+  <h4>Matrícula del otro vehículo: <span class="black"><span id="matriculaBParte"></span>.</span></h4>
+  <br><br>
+  <span id="status"></span>
+  <br>
+</body>
+</html>
